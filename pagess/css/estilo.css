@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;800&family=Zilla+Slab:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+  font-family: "Zilla Slab", serif;
+}
+
+.ancianos {
+  background-image: url(../img/ancianos.jpg);
+  height: 90vh;
+}
+
+header {
+  background-color: rgb(0, 255, 213);
+}/*# sourceMappingURL=estilo.css.map */
