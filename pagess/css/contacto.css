@@ -1,18 +1,13 @@
 * {
-  background-color: rgba(22, 195, 195, 0.681);
-  background-image: linear-gradient(to left, rgb(49, 40, 40), rgb(99, 89, 106));
+  background-color: rgba(245, 252, 252, 0.681);
 }
 
 nav > ul {
   display: flexbox;
-  flex-wrap: wrap-reverse ;
-  padding: 1.4rem ;
-  background-color: rgba(224, 19, 19, 0);
+  flex-wrap: wrap;
+  background-color: rgba(137, 125, 125, 0);
 }
 
 nav > ul > li > input {
-  background-color: rgba(100, 185, 67, 0.46);
+  background-color: rgba(213, 219, 211, 0.46);
 }/*# sourceMappingURL=contacto.css.map */
-main > div > h3 {
-  background-color: rgb(186, 207, 226);
-}

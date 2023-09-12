@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;800&display=swap");
+* {
+  margin: 0;
+  padding: 2rem;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+
+.fondo {
+  grid-template-columns: max-content;
+}
+
+.contenedor {
+  background-color: rgba(185, 230, 169, 0.923);
+}
+
+.div > p {
+  display: flex;
+  gap: 1rem;
+  background-color: blueviolet;
+}
+
+@media screen and (max-width: 480xp) {
+  .contenedor {
+    background-color: aqua;
+    grid-template-columns: 1rf;
+    grid-template-rows: repeat(1fr);
+    grid-template-areas: display;
+  }
+}/*# sourceMappingURL=servicios.css.map */

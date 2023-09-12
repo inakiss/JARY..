@@ -2,7 +2,7 @@
 
 *{
     margin: 0;
-    padding: o;
+    padding: 5;
     box-sizing: border-box;
     font-family: 'Cardo', serif;
     font-family: 'Kanit', sans-serif;
@@ -10,10 +10,10 @@
     font-family: 'Zilla Slab', serif;
 
 }
-.cuidados{
-    background-image: url("../img/cuidados.jpg");
-    height: 90vh;
-    
+head> .contenedor {
+    background-color: rgb(169, 39, 39);
+    padding: 100rem;
+
 
 
 }
