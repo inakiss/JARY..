@@ -1,17 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;800&family=Zilla+Slab:wght@300;400;700&display=swap");
 * {
   margin: 0;
-  padding: 5;
+  padding: 2.4;
   box-sizing: border-box;
   font-family: "Kanit", sans-serif;
   font-family: "Zilla Slab", serif;
 }
-h1{width: 100px;;}
-.ancianos {
+.h1{ max-width: 50px;;}
+
+.contenedor {
+  height: 100%;
+  margin-top: 1rem;
   background-image: url(../img/ancianos.jpg);
-width: 100rem;
+  width: 5rem;background-image: -moz-linear-gradient();
 }
 
 header {
-  background-color: rgb(32, 155, 134);
-}/*# sourceMappingURL=estilo.css.map */
+  background-color: rgb(233, 215, 197);
+}
+
+
+
+/*# sourceMappingURL=estilo.css.map */

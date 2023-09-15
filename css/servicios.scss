@@ -6,6 +6,10 @@
     box-sizing: border-box;
     font-family: 'Kanit', sans-serif;
 }
+.header {
+    @mixin gradient-bg ($color: null); 
+        
+ }
 
 .fondo {
     grid-template-columns: max-content;
@@ -14,7 +18,7 @@
 
 .contenedor {
 
-    background-color: rgba(185, 230, 169, 0.923);
+    background-color: rgba(25, 83, 4, 0.923);
 }
 
 .div> p {
@@ -26,7 +30,7 @@
 @media screen and (max-width: 480xp) {
 
 
-    .contenedor {
+.contenedor {
         background-color: aqua;
 
 
@@ -37,4 +41,8 @@
 
     }
 
+}
+.img {
+max-width: 100%;
+height: auto;
 }

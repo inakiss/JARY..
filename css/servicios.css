@@ -6,12 +6,16 @@
   font-family: "Kanit", sans-serif;
 }
 
+.header {
+  background-color: black;
+}
+
 .fondo {
   grid-template-columns: max-content;
 }
 
 .contenedor {
-  background-color: rgba(185, 230, 169, 0.923);
+  background-color: rgba(4, 25, 83, 0.923);
 }
 
 .div > p {
