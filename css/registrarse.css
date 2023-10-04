@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(235, 221, 162);
+}
+
+.body{
+    margin-top: 7px;
+}
+.form{
+    margin: 2px;
+    height: 700px;
+    padding: auto;
+}

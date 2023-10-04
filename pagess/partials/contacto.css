@@ -1,0 +1,18 @@
+* {
+  background-color: rgba(239, 249, 249, 0.681);
+}
+
+.formulario {
+  background-color: rgba(232, 17, 107, 0);
+  position: relative;
+}
+
+nav > ul {
+  display: flexbox;
+  flex-wrap: wrap;
+  background-color: rgba(241, 227, 227, 0);
+}
+
+nav > ul > li > input {
+  background-color: rgba(140, 153, 137, 0.46);
+}/*# sourceMappingURL=contacto.css.map */

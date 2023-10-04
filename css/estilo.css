@@ -4,32 +4,46 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Kanit", sans-serif;
-  font-family: "Zilla Slab", serif;
+  
 }
 
-.contenedor {
-  height: 50%;
+.imagen {
+  margin: 5px;
+  height: 9%;
   padding: 4,5rem;
-  margin-top: 0 ;
+  margin-top: 10px ;
   background-image: url(../img/ancianos.jpg);
-  width: 1%; ;background-position:center ;
+  width: 690px; 
+  background-position:center ;
+  display: flex;
+  justify-content: center;
 }
 
-.navbar {
-  background-color: black;
+.menu {
+
+display: grid;
+  width: 1500px;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: 1fr;
+  
+  ;
 }
+
 
 
 .parrafo {
-
-  padding: 1rem;
-  padding-bottom: 0;
-  font-size: 2rem;
+  background-color: rgb(232, 209, 197);
+  font-family: "Zilla Slab", serif;
+  padding: 6rem;
+  padding-bottom: 700;
+  font-size: 20rem;
+  display: inline-flex;
 }
 
 
 header {
   background-color: rgb(233, 215, 197);
+  
 }
 
 
